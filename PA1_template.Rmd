@@ -6,7 +6,7 @@ date: "Tuesday, 12 May 2015"
 
 Background Assignment information is included in README.Rmd/HTML file
 
-### Load & Explore data for Assignment
+### Load & Explore data for Assignment  
 
 
 ```{r, echo = TRUE}

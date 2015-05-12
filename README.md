@@ -1,97 +1,40 @@
-## Introduction
+---
+title: "Reproducible Research Assignment 1 - README.Rmd/HTML background information"
+author: "Carolyn Chadwick"
+date: "Tuesday, 12 May 2015"
+---
 
-It is now possible to collect a large amount of data about personal
-movement using activity monitoring devices such as a
-[Fitbit](http://www.fitbit.com), [Nike
-Fuelband](http://www.nike.com/us/en_us/c/nikeplus-fuelband), or
-[Jawbone Up](https://jawbone.com/up). These type of devices are part of
-the "quantified self" movement -- a group of enthusiasts who take
-measurements about themselves regularly to improve their health, to
-find patterns in their behavior, or because they are tech geeks. But
-these data remain under-utilized both because the raw data are hard to
-obtain and there is a lack of statistical methods and software for
-processing and interpreting the data.
+### Introduction  
 
-This assignment makes use of data from a personal activity monitoring
-device. This device collects data at 5 minute intervals through out the
-day. The data consists of two months of data from an anonymous
-individual collected during the months of October and November, 2012
-and include the number of steps taken in 5 minute intervals each day.
+The "quantified self" movement is a group of enthusiasts who use activity monitoring devices such as a 
+> [Fitbit](http://www.fitbit.com), 
+> [Nike Fuelband](http://www.nike.com/us/en_us/c/nikeplus-fuelband), or
+> [Jawbone Up](https://jawbone.com/up)
+to measure their own activities to improve their health or behaviour or because they are tech geeks. 
 
-## Data
+These data remain under-utilized because the raw data are hard to obtain and lacks statistical methods & software for processing and interpreting it.
 
-The data for this assignment can be downloaded from the course web
-site:
-
-* Dataset: [Activity monitoring data](https://d396qusza40orc.cloudfront.net/repdata%2Fdata%2Factivity.zip) [52K]
-
-The variables included in this dataset are:
-
-* **steps**: Number of steps taking in a 5-minute interval (missing
-    values are coded as `NA`)
-
-* **date**: The date on which the measurement was taken in YYYY-MM-DD
-    format
-
-* **interval**: Identifier for the 5-minute interval in which
-    measurement was taken
+This assignment uses data for an individual from such personal activity monitoring device,  Data is collected at 5 minute intervals through out the day for the months of October & November, 2012.  It includes the number of steps taken in 5 minute intervals each day.
 
 
+* Dataset: [Activity monitoring data](https://d396qusza40orc.cloudfront.net/repdata%2Fdata%2Factivity.zip) [52K]  downloaded from the course web site contains 17,568 observations stored in a comma-separated-value (CSV) file "activities.csv" with variables: 
+
+  **steps**: Number of steps taking in a 5-minute interval (missing values are coded as `NA`)
+  **date**: The date on which the measurement was taken in YYYY-MM-DD format
+  **interval**: Identifier for the 5-minute interval in which measurement was taken
 
 
-The dataset is stored in a comma-separated-value (CSV) file and there
-are a total of 17,568 observations in this
-dataset.
+### Assignment
+
+>Write a report that answers the questions detailed below. 
+>The report is in a **single R markdown** document that can be processed by **knitr** into an HTML file.
+>Code chunks in the R markdown document are visible to the user for review via the setting `echo = TRUE`. 
+>Completed assignment files pushed into the forked GitHub repository created for this assignment]
+>  [https://github.com/calchad/RepData_PeerAssessment1) 
+>Assignment submission comprises the GitHub repository URL & the SHA-1 commit ID for the relevant repository state.
 
 
-## Assignment
-
-This assignment will be described in multiple parts. You will need to
-write a report that answers the questions detailed below. Ultimately,
-you will need to complete the entire assignment in a **single R
-markdown** document that can be processed by **knitr** and be
-transformed into an HTML file.
-
-Throughout your report make sure you always include the code that you
-used to generate the output you present. When writing code chunks in
-the R markdown document, always use `echo = TRUE` so that someone else
-will be able to read the code. **This assignment will be evaluated via
-peer assessment so it is essential that your peer evaluators be able
-to review the code for your analysis**.
-
-For the plotting aspects of this assignment, feel free to use any
-plotting system in R (i.e., base, lattice, ggplot2)
-
-Fork/clone the [GitHub repository created for this
-assignment](http://github.com/rdpeng/RepData_PeerAssessment1). You
-will submit this assignment by pushing your completed files into your
-forked repository on GitHub. The assignment submission will consist of
-the URL to your GitHub repository and the SHA-1 commit ID for your
-repository state.
-
-NOTE: The GitHub repository also contains the dataset for the
-assignment so you do not have to download the data separately.
-
-
-
-### Loading and preprocessing the data
-
-Show any code that is needed to
-
-1. Load the data (i.e. `read.csv()`)
-
-2. Process/transform the data (if necessary) into a format suitable for your analysis
-
-
-### What is mean total number of steps taken per day?
-
-For this part of the assignment, you can ignore the missing values in
-the dataset.
-
-1. Make a histogram of the total number of steps taken each day
-
-2. Calculate and report the **mean** and **median** total number of steps taken per day
-
+### Load the data 
 
 ### What is the average daily activity pattern?
 
@@ -122,7 +65,7 @@ the dataset with the filled-in missing values for this part.
 
 1. Create a new factor variable in the dataset with two levels -- "weekday" and "weekend" indicating whether a given date is a weekday or weekend day.
 
-1. Make a panel plot containing a time series plot (i.e. `type = "l"`) of the 5-minute interval (x-axis) and the average number of steps taken, averaged across all weekday days or weekend days (y-axis). The plot should look something like the following, which was created using **simulated data**:
+2. Make a panel plot containing a time series plot (i.e. `type = "l"`) of the 5-minute interval (x-axis) and the average number of steps taken, averaged across all weekday days or weekend days (y-axis). The plot should look something like the following, which was created using **simulated data**:
 
 ![Sample panel plot](instructions_fig/sample_panelplot.png) 
 
@@ -161,8 +104,7 @@ in GitHub by doing the following:
 
 A valid submission will look something like (this is just an **example**!)
 
-```r
-https://github.com/rdpeng/RepData_PeerAssessment1
+> https://github.com/rdpeng/RepData_PeerAssessment1
 
-7c376cc5447f11537f8740af8e07d6facc3d9645
-```
+> 7c376cc5447f11537f8740af8e07d6facc3d9645
+

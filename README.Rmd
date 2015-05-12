@@ -4,7 +4,7 @@ author: "Carolyn Chadwick"
 date: "Tuesday, 12 May 2015"
 ---
 
-### Introduction
+### Introduction  
 
 The "quantified self" movement is a group of enthusiasts who use activity monitoring devices such as a 
 > [Fitbit](http://www.fitbit.com), 
