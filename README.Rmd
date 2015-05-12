@@ -2,6 +2,7 @@
 title: "Reproducible Research Assignment 1 - README.Rmd/HTML background information"
 author: "Carolyn Chadwick"
 date: "Tuesday, 12 May 2015"
+output: html_document
 ---
 
 ### Introduction  
